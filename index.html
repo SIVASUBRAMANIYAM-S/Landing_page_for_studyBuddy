@@ -49,12 +49,28 @@
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
-    <header class="site-header" id="top">
+    <header
+      class="site-header sticky top-3 z-50 mx-auto w-[calc(100%-2rem)] max-w-6xl rounded-full border border-white/70 bg-white/70 shadow-lg shadow-brand-primary/20 backdrop-blur-md"
+      id="top"
+    >
       <div class="nav-shell">
-        <a class="brand" href="#top" aria-label="Study Buddy home">
+        <a class="brand text-brand-deep" href="#top" aria-label="Study Buddy home">
           <span class="brand-mark" aria-hidden="true">s</span>
-          <span>study<span class="brand-accent">buddy</span></span>
+          <span>Study Buddy</span>
         </a>
+
+        <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+          <div class="nav-links">
+            <a class="transition-colors hover:text-brand-accent" href="#platform">Platform</a>
+            <a class="transition-colors hover:text-brand-accent" href="#schools">For Schools</a>
+            <a class="transition-colors hover:text-brand-accent" href="#institutes">For Institutes</a>
+            <a class="transition-colors hover:text-brand-accent" href="#results">Success Stories</a>
+          </div>
+          <a
+            class="nav-cta bg-gradient-to-r from-brand-primary to-blue-500 text-white shadow-md transition-transform hover:-translate-y-1"
+            href="#contact"
+          >Book a Demo <span aria-hidden="true">↗</span></a>
+        </nav>
 
         <button
           class="menu-toggle"
@@ -66,13 +82,6 @@
           <span></span>
           <span></span>
         </button>
-
-        <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
-          <a href="#platform">Platform</a>
-          <a href="#how-it-works">How it works</a>
-          <a href="#results">Why Study Buddy</a>
-          <a class="nav-cta" href="#contact">Talk to our team <span aria-hidden="true">↗</span></a>
-        </nav>
       </div>
     </header>
 
@@ -169,14 +178,14 @@
           <p>Bring your learning experience together with practical tools that help people stay curious, supported, and moving forward.</p>
         </div>
         <div class="feature-grid">
-          <article class="feature-card feature-lavender">
+          <article class="feature-card feature-lavender" id="schools">
             <div class="feature-icon" aria-hidden="true">✦</div>
             <p class="feature-index">01 / PERSONALIZED</p>
             <h3>A path that fits each person</h3>
             <p>Make learning feel relevant with clear next steps shaped around individual goals and progress.</p>
             <a href="#contact" aria-label="Learn about personalized learning">Discover more <span aria-hidden="true">↗</span></a>
           </article>
-          <article class="feature-card feature-peach">
+          <article class="feature-card feature-peach" id="institutes">
             <div class="feature-icon" aria-hidden="true">◎</div>
             <p class="feature-index">02 / CONNECTED</p>
             <h3>Support that stays in sync</h3>
