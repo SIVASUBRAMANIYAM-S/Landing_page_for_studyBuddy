@@ -43,5 +43,11 @@ blurred surface, a blue gradient demo button, and a responsive hamburger menu.
 The mobile menu supports keyboard dismissal with Escape and closes after a
 navigation link is selected.
 
+## Phase 2: immersive hero
+
+The hero presents an institute-focused message on a deep blue gradient, with
+responsive partner/demo actions and a CSS-built glass analytics dashboard.
+The dashboard floats gently on desktop and respects reduced-motion preferences.
+
 The contact link currently uses a reserved `.example` email address. Replace it
 with your team's approved contact address before publishing the page.
