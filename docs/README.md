@@ -49,5 +49,11 @@ The hero presents an institute-focused message on a deep blue gradient, with
 responsive partner/demo actions and a CSS-built glass analytics dashboard.
 The dashboard floats gently on desktop and respects reduced-motion preferences.
 
+## Phase 3: ecosystem features
+
+The platform section includes responsive analytics, 24/7 AI tutor, and
+automated grading cards. Each card combines a lift/scale hover treatment with
+CSS-built mini dashboard visuals that remain legible on smaller screens.
+
 The contact link currently uses a reserved `.example` email address. Replace it
 with your team's approved contact address before publishing the page.
