@@ -61,5 +61,11 @@ The proof-of-impact section presents the supplied student, pass-rate, and test
 metrics in responsive floating cards, followed by a glass testimonial over a
 blue abstract backdrop.
 
+## Phase 5: conversion footer
+
+The page ends with a dark, high-contrast demo CTA and pulsing schedule button,
+then a responsive four-column footer for the company, solutions, resources, and
+legal links.
+
 The contact link currently uses a reserved `.example` email address. Replace it
 with your team's approved contact address before publishing the page.
