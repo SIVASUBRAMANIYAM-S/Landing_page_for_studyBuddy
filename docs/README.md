@@ -55,5 +55,11 @@ The platform section includes responsive analytics, 24/7 AI tutor, and
 automated grading cards. Each card combines a lift/scale hover treatment with
 CSS-built mini dashboard visuals that remain legible on smaller screens.
 
+## Phase 4: impact metrics and testimonial
+
+The proof-of-impact section presents the supplied student, pass-rate, and test
+metrics in responsive floating cards, followed by a glass testimonial over a
+blue abstract backdrop.
+
 The contact link currently uses a reserved `.example` email address. Replace it
 with your team's approved contact address before publishing the page.
